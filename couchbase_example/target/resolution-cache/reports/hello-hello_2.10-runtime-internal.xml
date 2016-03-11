@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="hello"
+		module="hello_2.10"
+		revision="0.1-SNAPSHOT"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20160310151130"/>
+	<dependencies>
+		<module organisation="com.couchbase.client" name="java-client">
+			<revision name="2.2.5" status="release" pubdate="20160304032710" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://couchbase.com" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4744" time="0" location="/Users/arthur/.ivy2/cache/com.couchbase.client/java-client/ivy-2.2.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/couchbase/client/java-client/2.2.5/java-client-2.2.5.pom"/>
+				<caller organisation="hello" name="hello_2.10" conf="compile, runtime-internal, runtime, optional" rev="2.2.5" rev-constraint-default="2.2.5" rev-constraint-dynamic="2.2.5" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="java-client" type="jar" ext="jar" status="no" details="" size="751534" time="0" location="/Users/arthur/.ivy2/cache/com.couchbase.client/java-client/jars/java-client-2.2.5.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/couchbase/client/java-client/2.2.5/java-client-2.2.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.couchbase.client" name="core-io">
+			<revision name="1.2.5" status="release" pubdate="20160304032711" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://couchbase.com" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4851" time="0" location="/Users/arthur/.ivy2/cache/com.couchbase.client/core-io/ivy-1.2.5.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/couchbase/client/core-io/1.2.5/core-io-1.2.5.pom"/>
+				<caller organisation="com.couchbase.client" name="java-client" conf="default, compile, runtime, master" rev="1.2.5" rev-constraint-default="1.2.5" rev-constraint-dynamic="1.2.5" callerrev="2.2.5"/>
+				<artifacts>
+					<artifact name="core-io" type="jar" ext="jar" status="no" details="" size="4647945" time="0" location="/Users/arthur/.ivy2/cache/com.couchbase.client/core-io/jars/core-io-1.2.5.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/com/couchbase/client/core-io/1.2.5/core-io-1.2.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.reactivex" name="rxjava">
+			<revision name="1.0.15" status="release" pubdate="20151031042936" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ReactiveX/RxJava" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4313" time="0" location="/Users/arthur/.ivy2/cache/io.reactivex/rxjava/ivy-1.0.15.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/reactivex/rxjava/1.0.15/rxjava-1.0.15.pom"/>
+				<caller organisation="com.couchbase.client" name="core-io" conf="compile, runtime" rev="1.0.15" rev-constraint-default="1.0.15" rev-constraint-dynamic="1.0.15" callerrev="1.2.5"/>
+				<artifacts>
+					<artifact name="rxjava" type="jar" ext="jar" status="no" details="" size="893070" time="0" location="/Users/arthur/.ivy2/cache/io.reactivex/rxjava/jars/rxjava-1.0.15.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/reactivex/rxjava/1.0.15/rxjava-1.0.15.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.10.4" status="release" pubdate="20140319054629" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html          "/>
+				<metadata-artifact status="no" details="" size="2487" time="0" location="/Users/arthur/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom"/>
+				<caller organisation="hello" name="hello_2.10" conf="compile, runtime-internal, runtime, optional" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7126372" time="0" location="/Users/arthur/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar">
+						<origin-location is-local="false" location="UNKNOWN"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

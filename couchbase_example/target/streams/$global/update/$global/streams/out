@@ -1,0 +1,238 @@
+[0m[[0minfo[0m] [0mUpdating {file:/Users/arthur/github/my_scala_snippet/couchbase_example/}root...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: hello#hello_2.10;0.1-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b9be26a[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->com.couchbase.client#java-client;2.2.5 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.couchbase.client#java-client;2.2.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.couchbase.client#java-client;2.2.5 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.couchbase.client#java-client;2.2.5[0m
+[0m[[0mdebug[0m] [0m	found com.couchbase.client#java-client;2.2.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->com.couchbase.client#java-client;2.2.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->com.couchbase.client#java-client;2.2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#java-client;2.2.5->com.couchbase.client#core-io;1.2.5 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.couchbase.client#core-io;1.2.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.couchbase.client#core-io;1.2.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.couchbase.client#core-io;1.2.5[0m
+[0m[[0mdebug[0m] [0m	found com.couchbase.client#core-io;1.2.5 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#java-client;2.2.5->com.couchbase.client#core-io;1.2.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#core-io;1.2.5->io.reactivex#rxjava;1.0.15 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving io.reactivex#rxjava;1.0.15 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: io.reactivex#rxjava;1.0.15 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.reactivex#rxjava;1.0.15[0m
+[0m[[0mdebug[0m] [0m	found io.reactivex#rxjava;1.0.15 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#core-io;1.2.5->io.reactivex#rxjava;1.0.15 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#java-client;2.2.5->com.couchbase.client#core-io;1.2.5 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#java-client;2.2.5->com.couchbase.client#core-io;1.2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#core-io;1.2.5->io.reactivex#rxjava;1.0.15 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#core-io;1.2.5->io.reactivex#rxjava;1.0.15 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#java-client;2.2.5->com.couchbase.client#core-io;1.2.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#java-client;2.2.5->com.couchbase.client#core-io;1.2.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->com.couchbase.client#java-client;2.2.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->com.couchbase.client#java-client;2.2.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->com.couchbase.client#java-client;2.2.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->com.couchbase.client#java-client;2.2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#java-client;2.2.5->com.couchbase.client#core-io;1.2.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#java-client;2.2.5->com.couchbase.client#core-io;1.2.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#core-io;1.2.5->io.reactivex#rxjava;1.0.15 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#core-io;1.2.5->io.reactivex#rxjava;1.0.15 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#java-client;2.2.5->com.couchbase.client#core-io;1.2.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#java-client;2.2.5->com.couchbase.client#core-io;1.2.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#core-io;1.2.5->io.reactivex#rxjava;1.0.15 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#core-io;1.2.5->io.reactivex#rxjava;1.0.15 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->com.couchbase.client#java-client;2.2.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->com.couchbase.client#java-client;2.2.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->com.couchbase.client#java-client;2.2.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->com.couchbase.client#java-client;2.2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#java-client;2.2.5->com.couchbase.client#core-io;1.2.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#java-client;2.2.5->com.couchbase.client#core-io;1.2.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#core-io;1.2.5->io.reactivex#rxjava;1.0.15 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#core-io;1.2.5->io.reactivex#rxjava;1.0.15 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#java-client;2.2.5->com.couchbase.client#core-io;1.2.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#java-client;2.2.5->com.couchbase.client#core-io;1.2.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#core-io;1.2.5->io.reactivex#rxjava;1.0.15 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#core-io;1.2.5->io.reactivex#rxjava;1.0.15 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->com.couchbase.client#java-client;2.2.5 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->com.couchbase.client#java-client;2.2.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->com.couchbase.client#java-client;2.2.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->com.couchbase.client#java-client;2.2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#java-client;2.2.5->com.couchbase.client#core-io;1.2.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#java-client;2.2.5->com.couchbase.client#core-io;1.2.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#core-io;1.2.5->io.reactivex#rxjava;1.0.15 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#core-io;1.2.5->io.reactivex#rxjava;1.0.15 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#java-client;2.2.5->com.couchbase.client#core-io;1.2.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#java-client;2.2.5->com.couchbase.client#core-io;1.2.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#core-io;1.2.5->io.reactivex#rxjava;1.0.15 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#core-io;1.2.5->io.reactivex#rxjava;1.0.15 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->com.couchbase.client#java-client;2.2.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->com.couchbase.client#java-client;2.2.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->com.couchbase.client#java-client;2.2.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->com.couchbase.client#java-client;2.2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#java-client;2.2.5->com.couchbase.client#core-io;1.2.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#java-client;2.2.5->com.couchbase.client#core-io;1.2.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#core-io;1.2.5->io.reactivex#rxjava;1.0.15 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#core-io;1.2.5->io.reactivex#rxjava;1.0.15 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#java-client;2.2.5->com.couchbase.client#core-io;1.2.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#java-client;2.2.5->com.couchbase.client#core-io;1.2.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#core-io;1.2.5->io.reactivex#rxjava;1.0.15 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#core-io;1.2.5->io.reactivex#rxjava;1.0.15 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->com.couchbase.client#java-client;2.2.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->com.couchbase.client#java-client;2.2.5 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->com.couchbase.client#java-client;2.2.5 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->com.couchbase.client#java-client;2.2.5 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#java-client;2.2.5->com.couchbase.client#core-io;1.2.5 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#java-client;2.2.5->com.couchbase.client#core-io;1.2.5 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#core-io;1.2.5->io.reactivex#rxjava;1.0.15 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#core-io;1.2.5->io.reactivex#rxjava;1.0.15 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#java-client;2.2.5->com.couchbase.client#core-io;1.2.5 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#java-client;2.2.5->com.couchbase.client#core-io;1.2.5 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#core-io;1.2.5->io.reactivex#rxjava;1.0.15 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.couchbase.client#core-io;1.2.5->io.reactivex#rxjava;1.0.15 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->com.couchbase.client#java-client;2.2.5 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for hello#hello_2.10;0.1-SNAPSHOT [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-reflect;2.10.4[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#jline;2.10.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#jline;2.10.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies hello#hello_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.couchbase.client#java-client;2.2.5!java-client.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.couchbase.client#core-io;1.2.5!core-io.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.reactivex#rxjava;1.0.15!rxjava.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 947ms :: artifacts dl 41ms[0m
+[0m[[0mdebug[0m] [0m	report for hello#hello_2.10;0.1-SNAPSHOT compile produced in /Users/arthur/github/my_scala_snippet/couchbase_example/target/resolution-cache/reports/hello-hello_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for hello#hello_2.10;0.1-SNAPSHOT runtime produced in /Users/arthur/github/my_scala_snippet/couchbase_example/target/resolution-cache/reports/hello-hello_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for hello#hello_2.10;0.1-SNAPSHOT test produced in /Users/arthur/github/my_scala_snippet/couchbase_example/target/resolution-cache/reports/hello-hello_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for hello#hello_2.10;0.1-SNAPSHOT provided produced in /Users/arthur/github/my_scala_snippet/couchbase_example/target/resolution-cache/reports/hello-hello_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for hello#hello_2.10;0.1-SNAPSHOT optional produced in /Users/arthur/github/my_scala_snippet/couchbase_example/target/resolution-cache/reports/hello-hello_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for hello#hello_2.10;0.1-SNAPSHOT compile-internal produced in /Users/arthur/github/my_scala_snippet/couchbase_example/target/resolution-cache/reports/hello-hello_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for hello#hello_2.10;0.1-SNAPSHOT runtime-internal produced in /Users/arthur/github/my_scala_snippet/couchbase_example/target/resolution-cache/reports/hello-hello_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for hello#hello_2.10;0.1-SNAPSHOT test-internal produced in /Users/arthur/github/my_scala_snippet/couchbase_example/target/resolution-cache/reports/hello-hello_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for hello#hello_2.10;0.1-SNAPSHOT plugin produced in /Users/arthur/github/my_scala_snippet/couchbase_example/target/resolution-cache/reports/hello-hello_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for hello#hello_2.10;0.1-SNAPSHOT sources produced in /Users/arthur/github/my_scala_snippet/couchbase_example/target/resolution-cache/reports/hello-hello_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for hello#hello_2.10;0.1-SNAPSHOT docs produced in /Users/arthur/github/my_scala_snippet/couchbase_example/target/resolution-cache/reports/hello-hello_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for hello#hello_2.10;0.1-SNAPSHOT pom produced in /Users/arthur/github/my_scala_snippet/couchbase_example/target/resolution-cache/reports/hello-hello_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for hello#hello_2.10;0.1-SNAPSHOT scala-tool produced in /Users/arthur/github/my_scala_snippet/couchbase_example/target/resolution-cache/reports/hello-hello_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (947ms resolve - 41ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
